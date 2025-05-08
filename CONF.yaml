@@ -1,0 +1,14 @@
+ENV: "DEV"
+DEBUG: 0
+DEV_MODE: true
+DRAWIO_DIR: "drawio"
+CODE_DIR: "drawio_code"
+IMAGE_DIR: "drawio_images"
+MODELS:
+  DrawioFront: "gpt41"
+  DrawioManager: "gpt41"
+  Elementor: "gpt41"
+  Linkor: "gpt41"
+  Positioner: "sonnet_thinking"
+  Stylist: "gpt41"
+  Coder: "gpt41"

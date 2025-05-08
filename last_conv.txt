@@ -1,0 +1,49 @@
+          ╭──────────────────────────────╮
+          │ 🏳️ flags:                     │
+          │ llm     gpt-4.1-nano        │
+          │ rehop   True                │
+          │ hops    0                   │
+          ╰──────────────────────────────╯
+
+  ╭──────────────────────────────────────────────────────────────────╮
+  │ 🖥️  system:                                                       │
+  │  You are an agent that write commit messages given a diff.       │
+  │                                                                  │
+  │ You ONLY output the message and nothing else                     │
+  ╰──────────────────────────────────────────────────────────────────╯
+  ╭──────────────────────────────────────────────────────────────────╮
+  │ 🧑‍  user:                                                        │
+  │ diff --git a/README.md b/README.md                               │
+  │ index d5bdc72..5f0c9b7 100644                                    │
+  │ --- a/README.md                                                  │
+  │ +++ b/README.md                                                  │
+  │ @@ -1,2 +1,3 @@                                                  │
+  │  # EchoVerse                                                     │
+  │ +j                                                               │
+  │ \ No newline at end of file                                      │
+  │ diff --git a/watch-entr-commit.sh b/watch-entr-commit.sh         │
+  │ index 4eee27e..dfdaf35 100755                                    │
+  │ --- a/watch-entr-commit.sh                                       │
+  │ +++ b/watch-entr-commit.sh                                       │
+  │ @@ -16,12 +16,8 @@ watch_changes() {                             │
+  │      return                                                      │
+  │    fi                                                            │
+  │ -  echo "Generating commit message via OpenRouter..."            │
+  │ -  msg=$(curl -s \                                               │
+  │ -    -H "Content-Type: application/json" \                       │
+  │ -    -H "Authorization: Bearer $OPENROUTER_API_KEY" \            │
+  │ -    -d "{\"model\":\"gpt-4o1-                                   │
+  │ nano\",\"messages\":[{\"role\":\"system\",\"content\":\"You are  │
+  │ a helpful assistant specializing in creating concise and         │
+  │ descriptive git commit                                           │
+  │ messages.\"},{\"role\":\"user\",\"content\":\"Generate a concise │
+  │ git commit message for the following git diff:\n$diff\"}]}" \    │
+  │ -    https://api.openrouter.ai/v1/chat/completions | jq -r       │
+  │ ".choices[0].message.content")                                   │
+  │ +  echo "Generating commit message via watch.py..."              │
+  │ +  msg=$(python3 watch.py)                                       │
+  │    if [ -z "$msg" ] || [ "$msg" == "null" ]; then                │
+  │      echo "Failed to generate commit message."                   │
+  │      return                                                      │
+  │                                                                  │
+  ╰──────────────────────────────────────────────────────────────────╯

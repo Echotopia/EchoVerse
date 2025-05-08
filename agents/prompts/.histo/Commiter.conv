@@ -1,0 +1,1 @@
+assistant:Update script to generate commit message using watch.py; modify file watching to exclude specific files and directories for stability.

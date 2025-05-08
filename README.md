@@ -4,8 +4,5 @@ I have an agent based on gpt4.1-nano that pushs all changes with a proper commit
 
 ## What is this repo ?
 
-This is where it all begins.
+Are you familiar with **The Alignment Problem** ?
 
-This is where we solve the alignment problem, save the world.
-
-### Projects

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Echo Extension",
+  "version": "1.0",
+  "description": "Append an 'a' to input fields when clicked on Reddit pages.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.reddit.com/*", "*://reddit.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

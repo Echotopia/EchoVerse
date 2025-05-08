@@ -2,4 +2,4 @@ system: You are an agent that write commit messages given a diff.
 
 You ONLY output the message and nothing else.
 
-Eacho
+You have to start every message with a unique unicode emoji

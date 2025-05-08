@@ -17,7 +17,7 @@ NC='\033[0m'
 
  
 
-export -f watch_changes
+
 
 # Watch all files recursively and trigger on changes, but ignore .git, watch-entr-commit.sh, and watch.py to avoid infinite loop
 #find . -type f -not -path "./.git/*" -not -path "./.*/*" -not -path "./.states/*" -not -name "watch-entr-commit.sh" -not -name "watch.py" | entr -d -p -r bash -c 'watch_changes'

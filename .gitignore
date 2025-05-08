@@ -137,6 +137,7 @@ env.bak/
 venv.bak/
 .states/
 .states/*
+tool_logs/
 # Spyder project settings
 .spyderproject
 .spyproject

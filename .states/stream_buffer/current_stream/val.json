@@ -1,1 +1,1 @@
-"Refactor watch.py to capture and log stdout/stderr during git diff execution, then generate commit message based on diff."
+"Update README with new description; remove empty line from stream buffer JSON."

@@ -8,3 +8,4 @@ This is where it all begins.
 
 This is where we solve the alignment problem, save the world.
 
+### Projects

@@ -14,13 +14,7 @@ echo "Watching for file changes..."
 export OPENROUTER_API_KEY
 
 watch_changes() {
-  count=$(git diff --name-only | wc -l)
-  if [ "$count" -eq 0 ]; then
-    echo -e "${YELLOW}No changes to commit.${NC}"
-    return
-  fi
 
-  echo -e "${GREEN}Generating commit message via watch.py...${NC}"
   msg=$(python3 watch.py)
 
   echo -e "${GREEN}Commit message: $msg${NC}"

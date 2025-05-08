@@ -4,5 +4,6 @@ I have an agent based on gpt4.1-nano that pushs all changes with a proper commit
 
 ## What is this repo ?
 
-Also, what is EchoVerse ?
-Also, what is reality ?
+This is where it all begins.
+
+This is where we solve the alignment problem, save the world

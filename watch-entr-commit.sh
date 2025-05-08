@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 set -e
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+NC='\033[0m'
 
 if [ -z "$OPENROUTER_API_KEY" ]; then
   echo "Error: OPENROUTER_API_KEY is not set."
@@ -10,20 +14,21 @@ echo "Watching for file changes..."
 export OPENROUTER_API_KEY
 
 watch_changes() {
-  diff=$(git diff)
-  if [ -z "$diff" ]; then
-    echo "No changes to commit."
+  count=$(git diff --name-only | wc -l)
+  if [ "$count" -eq 0 ]; then
+    echo -e "${YELLOW}No changes to commit.${NC}"
     return
   fi
 
-  echo "Generating commit message via watch.py..."
+  echo -e "${GREEN}Generating commit message via watch.py...${NC}"
   msg=$(python3 watch.py)
 
+  echo -e "${GREEN}Commit message: $msg${NC}"
+  git add -A >/dev/null 2>&1
+  git commit -m "$msg" >/dev/null 2>&1
+  git push >/dev/null 2>&1
 
-  echo "Commit message: $msg"
-  git add -A
-  git commit -m "$msg"
-  git push
+  echo -e "${GREEN}$count files changed.${NC}"
 }
  
 

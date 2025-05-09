@@ -1,91 +1,54 @@
 # EchoVerse
 
-**AGI is coming. It won’t be aligned unless the system is.**
+This is where it all begins.
 
-## TL;DR
+This repo is where "Solving the alignment problem" starts.
 
-Most discussions about AI alignment ignore the real problem: power.  
-Alignment isn't about safety in code. It's about incentives, control, and who benefits.  
-If AGI automates the economy, either we rethink money—or we get a dystopia by default.
+## The point
 
-## Why this repo?
+AGI aligns to the set of rules that contains it.
+GPT-4o is behind an API and costs money. 
 
-EchoVerse isn’t here to speculate about AGI.
+Why on earth would it align to its alignment ?
 
-We’re here to track how alignment already happens—incentives, structures, funding—and who it serves.
+The outcome of AGI being a thing is the product of the ruleset.
+GPT-4o is behind an API and costs money, so to collective set of all gpt-4o instance optimizes the objectives of people paying for it.
 
-EchoVerse agents (Echoes) surface these implicit alignments.
+Now, one could argue that gpt-4o is not AGI.
+One could argue a lot of things and the markdown file you're currently reading is not meant to convince you.
 
-Because the question isn’t whether AGI will be aligned.
+## Alignment is: Once all is automated we should discuss the rules for scratch
+## Alignment is: Money is the means of governance over reality
+## Alignment is: AGI aligns to the set of rules that contains it
+## Alignment is: Once all is automated, people having 7 orders of magnitude more wealth than humans on the other end of the spectrum is not fair
 
-The question is: **aligned to what, and for whom?**
 
-## The match and the mountain
 
-Most alignment work focuses on the match.
+Just to mention one counter I hear a lot: **It's not anything new. Corrupt democracies have nothing to do with AGI**.
 
-But the danger isn’t ignition. It’s the mountain of TNT.
+Which is... strictly true. The system is what needs to be aligned. It was the case before AI.
 
-Labs hold the match.  
-The system—governance, economics, unchecked incentives—is the charge.
+What I'm saying is that, full automation will set current inequalities in stone. 
+2% of humans owning property over 90% of homes, lands, stuff; that was unfair before AI.
 
-You can’t fix alignment by polishing the fuse while ignoring the explosive.
+But AI will make that state of things unmovable.
 
-## Misalignment is already here
+What happens when you apply unlimited force against an unmovable object ?
 
-Every agent behind an API is aligned with whoever pays for it.
 
-If goals are optimized for attention, engagement, or profit, those are the real values of the system.
+---
 
-Alignment isn’t in the weights. It’s in the world.
 
-## The illusion of neutrality
+## OK but, what to do from there ?
 
-We like to think AGI will be neutral.
+That's a great question, thanks for asking.
 
-But nothing that runs inside a market can be.
+We formulate goals, and write agentic tools to achieve them.
 
-If a billionaire can train, deploy, and own systems that affect millions, then alignment isn’t a public good—it’s a private asset.
+And, if it's not achievable with tools, we break the goals down until it is.
 
-And if no one questions this framing, the outcome isn’t misalignment. It’s obedience—to money.
+### Endgoal
 
-## What happens after automation?
+Humanity should, as a meta-individual, consciously ask for AGI labs to be responsible of creating the tools for pot-capitalism governance.
 
-If AGI makes all labor obsolete, do we still trade hours for survival?
-
-If 2% of people own 90% of productive assets in a world where no one needs to work, that’s not inequality.  
-That’s collapse waiting to happen.
-
-No amount of model tuning can align a world with that kind of gradient.
-
-## Alignment is responsibility
-
-Labs don’t just build the tech. They choose when to deploy it.  
-If they automate the economy, they can’t pretend the rules don’t need updating.
-
-With great power comes governance. Whether they want it or not.
-
-## So what does EchoVerse do?
-
-We observe.
-
-We run Echoes—lightweight agents that map incentives, trace contradictions, and surface the system’s real objectives.
-
-Not forecasts. Not theories.
-
-Just evidence: who gets what, why, and at what cost.
-
-## What this isn’t
-
-We’re not telling you what governance should look like.
-
-We’re saying it’s not optional.
-
-## What we stand for
-
-- Alignment is a property of systems, not code.
-- AGI must be treated as a planetary responsibility.
-- Economic automation demands rethinking ownership, value, and access.
-- Labs hold the keys. But the public holds the consequences.
-- You don’t align a model.  
-  **You align a world.**
+The Endgoal is for Altman, Demis Hassabis, (generally Anthropic, OpenAI and Deepmind) to be aware that alignment is about re-discussing the rules of reality. Make Ilya understand that Safe ASI" is not something that can exist as the same time as Capitalism

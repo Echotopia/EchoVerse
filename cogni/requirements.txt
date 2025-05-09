@@ -1,0 +1,16 @@
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+rich>=13.0.0
+fire>=0.5.0
+requests>=2.28.0
+flask>=2.3.0
+python-dotenv
+mcp
+pyyaml>=6.0
+fastmcp
+openai
+starlette
+aiohttp
+uvicorn
+pydantic
+gunicorn

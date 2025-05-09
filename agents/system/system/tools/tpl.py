@@ -74,7 +74,10 @@ def tpl_tool(conv):
                 tool_to_use = match.group(1)
                 ...
                 random_id = generate_random_id()
-                tool_uses[random_id] = Tool[tool_to_use]()
+                try:
+                    tool_uses[random_id] = Tool[tool_to_use]()
+                except:
+                    tool_uses[random_id] = f"{{tool:{tool_to_use}}}"
                 #print(tool_uses)
                 msg_content = msg_content\
                 .replace(

@@ -51,4 +51,8 @@ And, if it's not achievable with tools, we break the goals down until it is.
 
 Humanity should, as a meta-individual, consciously ask for AGI labs to be responsible of creating the tools for pot-capitalism governance.
 
-The Endgoal is for Altman, Demis Hassabis, (generally Anthropic, OpenAI and Deepmind) to be aware that alignment is about re-discussing the rules of reality. Make Ilya understand that Safe ASI" is not something that can exist as the same time as Capitalism
+The Endgoal is for Altman, Demis Hassabis, (generally Anthropic, OpenAI and Deepmind) to be aware that alignment is about re-discussing the rules of reality. Make Ilya understand that Safe ASI" is not something that can exist as the same time as Capitalism.
+
+So our endgoal is:
+
+# Humanity as a whole will achieve AGI. Humanity has a whole must decide what happens with it. AGI labs must be held responsible for either setting post-capitalism governance or validate capitalism by default

@@ -63,4 +63,18 @@ So our endgoal is:
 
 ### What makes an objective pursuable 
 
-An objective is pursuable if it has an obvious **Step 1**. If not, it's 
+An objective is pursuable if it has an obvious **Step 1**. If not, it's not actionable
+
+
+
+---
+
+
+
+### Breaking down the end goal
+#### What you can do to help
+
+**You can :**
+- reach out at v@lentin.fr.
+- PR this repo
+  - Add a link to your project/blog/stuff that's relevant

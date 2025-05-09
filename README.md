@@ -56,3 +56,4 @@ The Endgoal is for Altman, Demis Hassabis, (generally Anthropic, OpenAI and Deep
 So our endgoal is:
 
 # Humanity as a whole will achieve AGI. Humanity has a whole must decide what happens with it. AGI labs must be held responsible for either setting post-capitalism governance or validate capitalism by default
+

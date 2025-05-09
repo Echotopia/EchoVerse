@@ -57,3 +57,10 @@ So our endgoal is:
 
 # Humanity as a whole will achieve AGI. Humanity has a whole must decide what happens with it. AGI labs must be held responsible for either setting post-capitalism governance or validate capitalism by default
 
+
+---
+
+
+### What makes an objective pursuable 
+
+An objective is pursuable if it has an obvious **Step 1**. If not, it's 
